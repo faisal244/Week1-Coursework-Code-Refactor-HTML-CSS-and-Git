@@ -66,11 +66,19 @@ p {
     margin-left: 25px;
 }
 
+.main-body{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
     
 }
 
@@ -88,6 +96,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 55px;
+    flex: auto;
 
 }
 
@@ -97,15 +106,12 @@ p {
 }
 
 
-
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
     
 }
-
-
 
 .services {
     margin-bottom: 20px;
