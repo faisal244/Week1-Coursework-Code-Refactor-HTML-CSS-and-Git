@@ -6,7 +6,7 @@ I was tasked with **Refactoring** existing code (improving it without changing w
 
 ## Link to deployed application
 
-* https://faisal244.github.io/Week1-Homework/
+* https://faisal244.github.io/Week1-Coursework-Code-Refactor-HTML-CSS-and-Git/
 
 
 ## Mock-Up
