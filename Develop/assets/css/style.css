@@ -125,7 +125,8 @@ p {
 
 
 /* css rules for the 3 services content blocks */
-
+/*  This was previous 3 seperate css classes - they were all doing the same 
+    thing so i consolidated them down into one class */
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -135,7 +136,8 @@ p {
     color: #ffffff;
 }
 
-
+/*  This was previous 3 seperate css classes - they were all doing the same 
+    thing so i consolidated them down into one class */
 .services img {
     max-height: 200px;
 }
@@ -148,7 +150,8 @@ p {
 
 
 /* Styling for the benefits section of the page */
-
+/*  This was previous 3 seperate css classes - they were all doing the same 
+    thing so i consolidated them down into one class */
 .benefits {
     margin-right: 20px;
     padding: 50px;
