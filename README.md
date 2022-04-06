@@ -42,66 +42,79 @@ Below is an overview of the changes made to meet the clients acceptance criteria
 
 ## HTML
 
-- Extensively commented the index.html file to allow the client to easily understand changes that have been made and the thought process behind them
-- Added a SEO optimised page title
-- Added a meta description
-- Vertically centered the Logo and removed colouring on   some of the letters that would have caused accessibility issues for colourblind or sight impaired people
-- Fixed all broken links in the top navigation
-- Extensively changed the structure of the page by changing the HTML tags used, moving from block level <div> elements everywhere to semantic html tags, including <main>, <section>, <aside>, <article>, <footer> and more
-- Added alt text for all images
-- added indentation and spacing for improved readability
+* Extensively commented the index.html file to allow the client to easily understand changes that have been made and the thought process behind them
+
+* Added a SEO optimised page title
+
+* Added a meta description
+
+* Vertically centered the Logo and removed colouring on   some of the letters that would have caused accessibility issues for colourblind or sight impaired people
+
+* Fixed all broken links in the top navigation
+
+* Extensively changed the structure of the page by changing the HTML tags used, moving from block level div elements everywhere to semantic html tags, including main, section, aside, article, footer and more
+
+* Added alt text for all images
+
+* added indentation and spacing for improved readability
 
 
 ## CSS
 
+* Extensively commented the style.css file to allow the client to easily understand changes that have been made and the thought process behind them
 
-> **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
+* CSS selectors and properties have been re-ordered and organized to follow the cascade and semantic structure.
+
+* created and applied a new .services css class to simplify the styling of the site . Applied new class to index.html and removed .social-media-marketing , .online-reputation-management, .search-engine-optimization CSS classes.
+
+* Consolidated all classes relating to the H2 tags in the services section - created a new .services h2 class, removed the 2 other now redundant css classes
+
+* created a new html container and css class - main class="main-body"
+
+* consolidated the properties from .benefit-lead, .benefit-brand and .benefit-cost css classes into .benefits, and removed their classes from the index.html file
+
+* removed .header h1 .seo css class and removed references from index.html - i did this for accessibility reasons - colorblind people would have difficulty reading the name of the business with half of the letters coloured in 
+
+* removed more unnecessary duplicate CSS classses in the benefits section - replaced with .benefits h3 and .benefits img
+
+* Top navigation styling - changed .header div to .head nav to reflect semantic html tag changes in index.html
 
 
 
-### Technical Acceptance Criteria: 40%
+> **Note**: This website layout was designed for desktop viewing, so some of the elements don't look like the mock-up at a resolution smaller than 768px. To improve accessibility further, i attempted to make the wesbite responsive by implementing the following changes:
 
-* Satisfies all of the preceding acceptance criteria plus the following code improvements:
+* added the flex property to the main html container. This class uses flex properties to make this container responsive to viewport changes and to ensure an even gap between content
 
-  * Application's links all function correctly.
+*  Added a minimum width so that the content will not look terrible if viewed on a mobile or any device with a really small screen 
 
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+* adjusted flex property for the .content css class - using gap and flex direction: column
 
-  * Application's CSS file is properly commented.
+* Added  margin-left: auto so that the navigation links positioning would remain responsive
 
-### Deployment: 32%
 
-* Application deployed at live URL.
+* added Added flexbox properties to the benefits column for more even spacing between elements and a responsive layout 
 
-* Application loads with no errors.
+* Top navigation styling - Added  margin-left: auto so that the navigation links positioning would remain responsive regardless of device
 
-* Application GitHub URL submitted.
+* Made the benefits section flex with the direction of column
 
-* GitHub repository contains application code.
+* In keeping with the scouts rule of leaving this clients code in a better state than when i found it, I attempted to make the site layout fully responsive by creating a media query that changes the layout when the site is viewed on mobile or tablet devices 
 
-### Application Quality: 15%
+* it does this by setting the flex direction to change to column if the screen size is less than 810px, so the benefits section will move below the 3 services boxes and it can all be scrolled as one list by the user
 
-* Application resembles mock-up provided in the homework instructions (at least 90%).
+## My Development Environment
 
-### Repository Quality: 13%
+* VScode
+* Terminal
+* Google Chrome
+* Git
 
-* Repository has a unique name.
+## Languages used
 
-* Repository follows best practices for file structure and naming conventions.
+* HTML
+* CSS
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
-* Repository contains multiple descriptive commit messages.
+## Link to deployed application
 
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
-
----
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+* 
