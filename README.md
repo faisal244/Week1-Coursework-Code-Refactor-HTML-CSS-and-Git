@@ -1,8 +1,13 @@
-# 01 Horiseon - HTML, CSS, and Git: Code Refactor
+# 01 - Horiseon Code Refactor: HTML, CSS, and Git
 
 This is the first graded homework assignment for the University of Birmingham Full Stack Web Development Bootcamp. All of the homework assignments follow agile project management conventions, providing a user story, acceptance criteria, a mock-up demonstrating the application functionality, and review guidelines. 
 
 I was tasked with **Refactoring** existing code (improving it without changing what it does) to meet a certain set of standards for a fictional digital marketing agency called Horiseon - who had hired me to refactor their existing site to make it more accessible. 
+
+## Link to deployed application
+
+* https://faisal244.github.io/Week1-Homework/
+
 
 ## Mock-Up
 
@@ -107,14 +112,11 @@ Below is an overview of the changes made to meet the clients acceptance criteria
 * VScode
 * Terminal
 * Google Chrome
+* MacOS Monterey 
 * Git
+* Github
 
 ## Languages used
 
 * HTML
 * CSS
-
-
-## Link to deployed application
-
-* 
